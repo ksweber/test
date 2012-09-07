@@ -1,0 +1,9 @@
+Create A New Branch
+         git clone git@github.com:RevolWireless/<RepoName>.git
+         cd <RepoName>
+         git checkout -b <NewBranch>
+         git push origin <NewBranch>
+         git checkout master
+         git branch -D <NewBranch>
+         git checkout <NewBranch>
+         git push 
